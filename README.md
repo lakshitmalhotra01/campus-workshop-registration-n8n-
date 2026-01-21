@@ -1,30 +1,27 @@
-# campus-workshop-registration-n8n-# Campus Workshop Registration System (n8n)
+# Campus Workshop Registration System (n8n)
 
-## 📌 Overview
-This project demonstrates an automated workflow built using n8n for managing campus workshop registrations.
+## Overview
+This project demonstrates an end-to-end automation workflow built using n8n for managing campus workshop registrations.
 
-## ⚙️ Workflow Features
-- Triggered via form submission using Webhook
-- Stores participant details in Google Sheets
-- Sends automated confirmation email to the user
-- Uses production webhook URL
+## Workflow Description
+The workflow is triggered when a user submits a registration form. It captures participant details, stores them in Google Sheets, and sends a confirmation email to the user.
 
-## 🔗 Live Workflow (Production URL)
+## Features
+- Webhook-based form submission trigger
+- Automatic data storage in Google Sheets
+- Confirmation email sent via Gmail
+- Deployed using n8n Cloud (Production URL)
+
+## Live Workflow (Production URL)
 https://lakshit9580.app.n8n.cloud/webhook/campus-workshop-registration
 
-## 🧩 Workflow Steps
-1. User submits registration form
-2. Webhook receives data
-3. Data is appended to Google Sheets
-4. Confirmation email is sent to the user
-
-## 🛠️ Tools Used
+## Tools & Technologies
 - n8n (Cloud)
 - Google Sheets
 - Gmail
 
-## 📷 Screenshots
-See `/screenshots` folder for workflow and output proofs.
+## Use Case
+Automates the registration process for a campus workshop, reducing manual effort and ensuring instant confirmation to participants.
 
-## 👤 Author
+## Author
 Lakshit
